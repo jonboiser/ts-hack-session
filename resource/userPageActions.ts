@@ -29,5 +29,6 @@ export function showUserPage(store: AppStore, userId: string): Promise<void> {
 // Exercise: Add a new resource 'Album' (e.g. a music album) and a function 'getFavoriteAlbum(userId)' that
 // returns an array of favorite albums. Incorporate that into the 'showUserPage' action.
 
+// Exercise: Rewrite showUserPage using async/await syntax. Make sure to handle the error case!
 
 // Advanced Exercise: Implement a generic 'Resource<T>' class such that, say, UserResource extends Resource<User>
